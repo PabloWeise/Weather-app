@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Weather</title>
+</head>
+<body>
+    <div id="title" class="row-12">
+        <header>Weather App</header>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-header">
+          Find out weather permissive
+        </div>
+        <div class="card-body" >
+          <h5 class="card-title"></h5>
+          <p class="card-text" style="font-weight: bolder;">Type in the city you would like to search</p>
+          <input id="search-input" type="text">
+          <button id="search-btn" >Search</button>
+
+           <div style="background-color: whitesmoke; margin-left: 200px; margin-right: 200px; border-radius: 5px;">
+            <h2 id="current-city"></h2>
+            <p id="current-temp" ></p>
+            <p id="current-humidity"></p>
+            <p id="wind-sp" ></p>
+           </div>
+
+           <div class="row">
+            <div class="col-3" style="width: 8rem;">
+                <img src="" class="card-img-top" alt="">
+                <div class="card-innerBody" style="background-color: whitesmoke;">
+                  <h5 class="card-title">  </h5>
+                  <p id="day1" class="card-text"> </p>
+                  <p id="wind1"></p>
+                  <p id="humid1"></p>
+                  
+                </div>
+
+              </div>
+
+
+              <div class="col-3" style="width: 8rem;">
+                <img src="" class="card-img-top" alt="">
+                <div class="card-innerBody" style="background-color: whitesmoke;">
+                  <h5 class="card-title"></h5>
+                  <p id="day2" class="card-text"></p>
+                  <p id="wind2"></p>
+                  <p id="humid2"></p>
+                  
+                </div>
+              </div>
+
+              <div  class="col-3" style="width: 8rem;">
+                <img src="" class="card-img-top" alt="">
+                <div class="card-innerBody" style="background-color: whitesmoke;">
+                  <h5 class="card-title"></h5>
+                  <p id="day3"class="card-text"></p>
+                  <p id="wind3"></p>
+                  <p id="humid3"></p>
+                  
+                </div>
+              </div>
+
+              <div class="col-3" style="width: 8rem;">
+                <img src="" class="card-img-top" alt="">
+                <div class="card-innerBody" style="background-color: whitesmoke;">
+                  <h5 class="card-title"></h5>
+                  <p id="day4" class="card-text"> </p>
+                  <p id="wind4"></p>
+                  <p id="humid4"></p>
+                  
+                </div>
+              </div>
+
+
+
+
+
+
+
+           </div>
+
+
+
+
+
+        </div>
+
+       
+
+
+        <div class="card-footer text-muted">
+          
+        </div>
+      </div>
+      
+    
+
+
+<script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+<script src="file.js" >
+    
+</script>
+</body>
+</html>
